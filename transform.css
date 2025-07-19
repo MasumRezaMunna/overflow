@@ -1,0 +1,21 @@
+.container .inner{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    border: 2px solid steelblue;
+    background: aquamarine;
+}
+.inner{
+    border: 2px solid brown;
+    background-color: palegoldenrod;
+    /* transform: scale(.75 ); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(.75) rotate(45deg) translateX(100px); */
+}
+.inner:hover{
+    transform: rotate(45deg) skew(25deg);
+}
+body{
+    margin-left: 50px;
+}
